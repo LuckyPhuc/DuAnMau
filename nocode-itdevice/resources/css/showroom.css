@@ -1,0 +1,171 @@
+.container h1 {
+    font-weight: 600;
+    text-align: center;
+    padding: 32px;
+}
+/* Regions Bac Nam Start */
+.container_regions{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container_regions--place{
+    border: 2px solid var(--card-color);
+    margin: 6px;
+    border-radius: 4px;
+    transition: .3s ease-in-out;
+}
+.container_regions--place:hover{
+    border: 2px solid var(--main-color);
+}
+.container_place--img{
+    height: 300px;
+    width: 300px;
+}
+.container_ladi{
+    padding-top: 72px;
+    display: flex;
+}
+
+#KHUVUCMIENNAM {
+    display: none ;
+    width: 100% !important;
+}
+#KHUVUCMIENBAC{
+    display: none ;
+    width: 100% !important;
+}
+.items__name--showroom{
+    font-size: 24px;
+}
+.items__name--city{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.item__line{
+    width: 200px;
+    height: 4px;
+    background-color: var(--main-color);
+}
+.container_ladi--section{
+    padding: 32px;
+    background-color: var(--main-color);
+    text-align: center;
+    font-weight: bolder;
+    color: var(--white-color);
+}
+/* Regions Bac Nam End */
+/* Shoroom start */
+.container_ladi--in4{
+    padding: 64px 160px 16px 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: fit-content;
+}
+.container_in4--address{
+    flex: 1;
+    margin: 36px;
+}
+.container_in4--slide{
+    display:flex;
+    width: 100%;
+    margin-left: 16px;
+}
+.container_address--ele{
+    width: 140px;
+    height: 5px;
+    background-color: var(--main-color) !important;
+}
+.container_address--items{
+    margin-top: 8px;
+    text-align: left;
+}
+
+.container_address--media{
+    color: var(--black-color);
+}
+.container_in4--slide{
+    width: 100%;
+}
+.showroom__swiper{
+    width: 640px !important;
+    height: 400px !important;
+    border: 16px solid var(--main-color);
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.showroom__swiper .swiper-button-prev,
+.showroom__swiper .swiper-button-next{
+    color: var(--white-color) !important;
+    font-weight: 900;
+}
+.showroom_slide--img{
+    width: 100%;
+    height: 100%;
+}
+.showroom__slide--address{
+    background-color: var(--main-color);
+    width: 640px;
+}
+.showroom__address--text{
+    color: var(--white-color);
+    font-size: 24px;
+    height: 40px;
+}
+.swipper_adress{
+    font-size: 24px;
+    display: flex;
+    align-self: start;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    padding: 8px 16px 16px 16px;
+}
+.swipper_adress .bi-geo-alt{
+    font-size: 64px;
+    margin-top: -12px;
+}
+.swipper_adress--name h2 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+}
+.swipper_adress--name h4{
+    text-align: left;
+    font-size: 24px;
+}
+
+/* Shoroom end */
+.container_ladi--Ser {
+    /* text-align: center; */
+    margin-top: 72px;
+}
+.container_address--city,
+.container_address--name {
+    text-align: left;
+}
+.ladi__ser--items{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.ladi__ser--item{
+    display: block;
+    padding: 16px;
+}
+.ladi__ser--item :first-child{
+    font-size: 60px;
+    color: var(--main-color);
+}
+@media only screen and (max-width:739px){
+    .container h1{
+        padding: 0;
+    }
+    .container_regions--place{
+        width:50% ;
+    }
+    .container_place--img{
+        width: 100%;
+        height: fit-content;
+    }
+}
